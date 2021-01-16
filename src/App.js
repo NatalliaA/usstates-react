@@ -4,69 +4,78 @@ import { states } from './states-data.js';
 import { Usstate } from './components/usstate/usstate';
 
 class App extends Component {
-   
-    state = {
-      usstates: states,
-      showAbbr: false,
-      showCapital: false
-    };
-    
-  toggleAbbrHandler = ()=> {
+
+  state = {
+    usstates: states,
+    showAbbr: false,
+    showCapital: false
+  };
+
+  toggleAbbrHandler = () => {
     const showAbbrStatus = this.state.showAbbr;
-    this.setState({showAbbr: !showAbbrStatus});
+    this.setState({ showAbbr: !showAbbrStatus });
   }
 
-  toggleCapitalHandler = ()=> {
+  toggleCapitalHandler = () => {
     const showCapitalStatus = this.state.showCapital;
-    this.setState({showCapital: !showCapitalStatus})
+    this.setState({ showCapital: !showCapitalStatus })
   }
 
-render(){
-  return (
-    <div className="App">
-      <h1>US STATES</h1>
-      <button onClick = {this.toggleAbbrHandler}>Abbreviation</button>
-      <button onClick = {this.toggleCapitalHandler}>Capital</button>
+  render() {
 
-   {/* if Abbreviation btn clicked show abbr */}
-    {this.state.showAbbr ?
-     <div className="usstate-list">
-     {
-       this.state.usstates.map(state=> (
-         <Usstate  name = {state.name} 
-         abbr = { state.abbr }/>
-       ))
-     } 
-     </div>  
-    
-    :
-    // if Capital btn clicked show capital
-     
-     this.state.showCapital ?
-      <div className="usstate-list">
-      {
-        this.state.usstates.map(state=> (
-          <Usstate  name = {state.name} 
-          capital = { state.capital }/>
-        ))
-      } 
-      </div> 
+    //no button clicked, show just state name
+    let usstates = (
+      <div>
+        {
+          this.state.usstates.map(state => {
+            return <Usstate name={state.name} />
+          })
+        }
+      </div>
+    )
 
-      :
+    // if Capital btn clicked show capital    
+    if (this.state.showCapital) {
+      usstates = (
+        <div>
+          {
+            this.state.usstates.map(state => {
+              return <Usstate name={state.name}
+                capital={state.capital} />
+            })
+          }
+        </div>
+      )
+    }
 
-    //  show just state
-      <div className="usstate-list">
-      {
-        this.state.usstates.map(state=> (
-          <Usstate  name = {state.name}/>
-        ))
-      } 
-      </div>  
-      }     
-      
-    </div>
-  );
-}
+   // if Abbreviation btn clicked show abbr   
+   if (this.state.showAbbr) {
+     usstates = (
+       <div>
+         {
+           this.state.usstates.map(state => {
+             return <Usstate name={state.name}
+               abbr={state.abbr} />
+           })
+         }
+       </div>
+     )
+   }   
+
+    return (
+      <div className="App">
+        <h1>US STATES</h1>
+        <button onClick={this.toggleAbbrHandler}>Abbreviation</button>
+        <button onClick={this.toggleCapitalHandler}>Capital</button>
+
+        <div className="usstate-list">
+          { usstates }
+        </div>
+
+
+      </div>
+    );
+  }
 }
 
 export default App;
