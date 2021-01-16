@@ -6,5 +6,7 @@ export const Usstate = (props)=>(
         <p className='usstate-name'>{props.name}</p>        
         <p>{props.capital}</p>
         <p>{props.abbr}</p>
+        <p>{props.population}</p>
+        <p>{props.populationRank}</p>
     </div>
 );
