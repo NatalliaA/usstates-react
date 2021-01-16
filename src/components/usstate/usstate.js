@@ -1,9 +1,10 @@
 import React from 'react';
+import './usstate.css'
 
 export const Usstate = (props)=>(    
-    <div className='state-container'>
-        <h2>{props.name}</h2>
-        <p>{props.abbr}</p>
+    <div className='usstate-container'>
+        <p className='usstate-name'>{props.name}</p>        
         <p>{props.capital}</p>
+        <p>{props.abbr}</p>
     </div>
 );

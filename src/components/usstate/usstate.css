@@ -1,0 +1,11 @@
+.usstate-container{
+    display: inline-block;
+    border: 0.1em solid gray;
+    border-radius: 5%;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.usstate-name{
+    font-weight: bold;
+}
