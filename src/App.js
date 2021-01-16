@@ -71,8 +71,6 @@ class App extends Component {
         <div className="usstate-list">
           { usstates }
         </div>
-
-
       </div>
     );
   }

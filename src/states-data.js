@@ -4,350 +4,700 @@ export const states = [
         name: "Alabama",
         capital: "Montgomery",
         lat: "32.361538",
-        long: "-86.279118"
+        long: "-86.279118",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '0'
     },
     {
         abbr: "AK",
         name: "Alaska",
         capital: "Juneau",
         lat: "58.301935",
-        long: "-134.419740"
+        long: "-134.419740",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '1'
     },
     {
         abbr: "AZ",
         name: "Arizona",
         capital: "Phoenix",
         lat: "33.448457",
-        long: "-112.073844"
+        long: "-112.073844",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '2'
     },
     {
         abbr: "AR",
         name: "Arkansas",
         capital: "Little Rock",
         lat: "34.736009",
-        long: "-92.331122"
+        long: "-92.331122",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '3'
     },
     {
         abbr: "CA",
         name: "California",
         capital: "Sacramento",
         lat: "38.555605",
-        long: "-121.468926"
+        long: "-121.468926",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '4'
     },
     {
         abbr: "CO",
         name: "Colorado",
         capital: "Denver",
         lat: "39.7391667",
-        long: "-104.984167"
+        long: "-104.984167",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '5'
     },
     {
         abbr: "CT",
         name: "Connecticut",
         capital: "Hartford",
         lat: "41.767",
-        long: "-72.677"
+        long: "-72.677",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '6'
     },
     {
         abbr: "DE",
         name: "Delaware",
         capital: "Dover",
         lat: "39.161921",
-        long: "-75.526755"
+        long: "-75.526755",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '7'
     },
     {
         abbr: "FL",
         name: "Florida",
         capital: "Tallahassee",
         lat: "30.4518",
-        long: "-84.27277"
+        long: "-84.27277",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '8'
     },
     {
         abbr: "GA",
         name: "Georgia",
         capital: "Atlanta",
         lat: "33.76",
-        long: "-84.39"
+        long: "-84.39",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '9'
     },
     {
         abbr: "HI",
         name: "Hawaii",
         capital: "Honolulu",
         lat: "21.30895",
-        long: "-157.826182"
+        long: "-157.826182",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '10'
     },
     {
         abbr: "ID",
         name: "Idaho",
         capital: "Boise",
         lat: "43.613739",
-        long: "-116.237651"
+        long: "-116.237651",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '11'
     },
     {
         abbr: "IL",
         name: "Illinois",
         capital: "Springfield",
         lat: "39.783250",
-        long: "-89.650373"
+        long: "-89.650373",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '12'
     },
     {
         abbr: "IN",
         name: "Indiana",
         capital: "Indianapolis",
         lat: "39.790942",
-        long: "-86.147685"
+        long: "-86.147685",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '13'
     },
     {
         abbr: "IA",
         name: "Iowa",
         capital: "Des Moines",
         lat: "41.590939",
-        long: "-93.620866"
+        long: "-93.620866",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '14'
     },
     {
         abbr: "KS",
         name: "Kansas",
         capital: "Topeka",
         lat: "39.04",
-        long: "-95.69"
+        long: "-95.69",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '15'
     },
     {
         abbr: "KY",
         name: "Kentucky",
         capital: "Frankfort",
         lat: "38.197274",
-        long: "-84.86311"
+        long: "-84.86311",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '16'
     },
     {
         abbr: "LA",
         name: "Louisiana",
         capital: "Baton Rouge",
         lat: "30.45809",
-        long: "-91.140229"
+        long: "-91.140229",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '17'
     },
     {
         abbr: "ME",
         name: "Maine",
         capital: "Augusta",
         lat: "44.323535",
-        long: "-69.765261"
+        long: "-69.765261",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '18'
     },
     {
         abbr: "MD",
         name: "Maryland",
         capital: "Annapolis",
         lat: "38.972945",
-        long: "-76.501157"
+        long: "-76.501157",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '19'
     },
     {
         abbr: "MA",
         name: "Massachusetts",
         capital: "Boston",
         lat: "42.2352",
-        long: "-71.0275"
+        long: "-71.0275",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '20'
     },
     {
         abbr: "MI",
         name: "Michigan",
         capital: "Lansing",
         lat: "42.7335",
-        long: "-84.5467"
+        long: "-84.5467",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '21'
     },
     {
         abbr: "MN",
         name: "Minnesota",
         capital: "Saint Paul",
         lat: "44.95",
-        long: "-93.094"
+        long: "-93.094",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '22'
     },
     {
         abbr: "MS",
         name: "Mississippi",
         capital: "Jackson",
         lat: "32.320",
-        long: "-90.207"
+        long: "-90.207",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '23'
     },
     {
         abbr: "MO",
         name: "Missouri",
         capital: "Jefferson City",
         lat: "38.572954",
-        long: "-92.189283"
+        long: "-92.189283",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '24'
     },
     {
         abbr: "MT",
         name: "Montana",
         capital: "Helana",
         lat: "46.595805",
-        long: "-112.027031"
+        long: "-112.027031",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '25'
     },
     {
         abbr: "NE",
         name: "Nebraska",
         capital: "Lincoln",
         lat: "40.809868",
-        long: "-96.675345"
+        long: "-96.675345",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '26'
     },
     {
         abbr: "NV",
         name: "Nevada",
         capital: "Carson City",
         lat: "39.160949",
-        long: "-119.753877"
+        long: "-119.753877",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '27'
     },
     {
         abbr: "NH",
         name: "New Hampshire",
         capital: "Concord",
         lat: "43.220093",
-        long: "-71.549127"
+        long: "-71.549127",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '28'
     },
     {
         abbr: "NJ",
         name: "New Jersey",
         capital: "Trenton",
         lat: "40.221741",
-        long: "-74.756138"
+        long: "-74.756138",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '29'
     },
     {
         abbr: "NM",
         name: "New Mexico",
         capital: "Santa Fe",
         lat: "35.667231",
-        long: "-105.964575"
+        long: "-105.964575",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '30'
     },
     {
         abbr: "NY",
         name: "New York",
         capital: "Albany",
         lat: "42.659829",
-        long: "-73.781339"
+        long: "-73.781339",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '31'
     },
     {
         abbr: "NC",
         name: "North Carolina",
         capital: "Raleigh",
         lat: "35.771",
-        long: "-78.638"
+        long: "-78.638",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '32'
     },
     {
         abbr: "ND",
         name: "North Dakota",
         capital: "Bismarck",
         lat: "48.813343",
-        long: "-100.779004"
+        long: "-100.779004",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '33'
     },
     {
         abbr: "OH",
         name: "Ohio",
         capital: "Columbus",
         lat: "39.962245",
-        long: "-83.000647"
+        long: "-83.000647",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '34'
     },
     {
         abbr: "OK",
         name: "Oklahoma",
         capital: "Oklahoma City",
         lat: "35.482309",
-        long: "-97.534994"
+        long: "-97.534994",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '35'
     },
     {
         abbr: "OR",
         name: "Oregon",
         capital: "Salem",
         lat: "44.931109",
-        long: "-123.029159"
+        long: "-123.029159",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '36'
     },
     {
         abbr: "PA",
         name: "Pennsylvania",
         capital: "Harrisburg",
         lat: "40.269789",
-        long: "-76.875613"
+        long: "-76.875613",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '37'
     },
     {
         abbr: "RI",
         name: "Rhode Island",
         capital: "Providence",
         lat: "41.82355",
-        long: "-71.422132"
+        long: "-71.422132",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '38'
     },
     {
         abbr: "SC",
         name: "South Carolina",
         capital: "Columbia",
         lat: "34.000",
-        long: "-81.035"
+        long: "-81.035",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '39'
     },
     {
         abbr: "SD",
         name: "South Dakota",
         capital: "Pierre",
         lat: "44.367966",
-        long: "-100.336378"
+        long: "-100.336378",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '40'
     },
     {
         abbr: "TN",
         name: "Tennessee",
         capital: "Nashville",
         lat: "36.165",
-        long: "-86.784"
+        long: "-86.784",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '41'
     },
     {
         abbr: "TX",
         name: "Texas",
         capital: "Austin",
         lat: "30.266667",
-        long: "-97.75"
+        long: "-97.75",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '42'
     },
     {
         abbr: "UT",
         name: "Utah",
         capital: "Salt Lake City",
         lat: "40.7547",
-        long: "-111.892622"
+        long: "-111.892622",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '43'
     },
     {
         abbr: "VT",
         name: "Vermont",
         capital: "Montpelier",
         lat: "44.26639",
-        long: "-72.57194"
+        long: "-72.57194",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '44'
     },
     {
         abbr: "VA",
         name: "Virginia",
         capital: "Richmond",
         lat: "37.54",
-        long: "-77.46"
+        long: "-77.46",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '45'
     },
     {
         abbr: "WA",
         name: "Washington",
         capital: "Olympia",
         lat: "47.042418",
-        long: "-122.893077"
+        long: "-122.893077",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '46'
     },
     {
         abbr: "WV",
         name: "West Virginia",
         capital: "Charleston",
         lat: "38.349497",
-        long: "-81.633294"
+        long: "-81.633294",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '47'
     },
     {
         abbr: "WI",
         name: "Wisconsin",
         capital: "Madison",
         lat: "43.074722",
-        long: "-89.384444"
+        long: "-89.384444",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '48'
     },
     {
         abbr: "WY",
         name: "Wyoming",
         capital: "Cheyenne",
         lat: "41.145548",
-        long: "-104.802042"
+        long: "-104.802042",
+        population: "000",
+        populationRank: 'POPULATIONRANK',
+        nickname: "NICKNAME",
+        area: 'AREA',
+        areaRank: 'AREARANK',
+        flag: 'FLAG',
+        id: '49'
     }
 ]
 
