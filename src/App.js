@@ -8,53 +8,64 @@ class App extends Component {
   state = {
     usstates: states,
     showAbbr: false,
-    showCapital: false,
     showNickname: false,
+    showCapital: false,
     showPopulation: false,
     showArea: false
   };
 
   toggleAbbrHandler = () => {
     const showAbbrStatus = this.state.showAbbr;
-    this.setState({ 
+    this.setState({
       showAbbr: !showAbbrStatus,
       showNickname: false,
       showCapital: false,
       showPopulation: false,
       showArea: false
-     });
+    });
   }
 
   toggleCapitalHandler = () => {
     const showCapitalStatus = this.state.showCapital;
-    this.setState({ 
+    this.setState({
       showCapital: !showCapitalStatus,
       showAbbr: false,
       showNickname: false,
       showPopulation: false,
-      showArea: false     
-     });
+      showArea: false
+    });
   }
 
   toggleNicknameHandler = () => {
     const showNicknameStatus = this.state.showNickname;
-    this.setState({ 
+    this.setState({
       showNickname: !showNicknameStatus,
       showCapital: false,
       showAbbr: false,
       showPopulation: false,
-      showArea: false      
+      showArea: false
     });
   }
 
   togglePopulationHandler = () => {
     const showPopulationStatus = this.state.showPopulation;
-    this.setState({ 
+    this.setState({
       showPopulation: !showPopulationStatus,
       showNickname: false,
       showCapital: false,
       showAbbr: false,
-      showArea: false                
+      showArea: false
+    });
+  }
+
+  toggleAreaHandler = () => {
+    const showAreaStatus = this.state.showArea;
+    this.setState({
+      showArea: !showAreaStatus,
+      showNickname: false,
+      showCapital: false,
+      showAbbr: false,
+      showPopulation: false
     });
   }
 
@@ -85,59 +96,77 @@ class App extends Component {
       )
     }
 
-   // if Abbreviation btn clicked show abbr   
-   if (this.state.showAbbr) {
-     usstates = (
-       <div>
-         {
-           this.state.usstates.map(state => {
-             return <Usstate name={state.name}
-               abbr={state.abbr} />
-           })
-         }
-       </div>
-     )
-   }   
+    // if Abbreviation btn clicked show abbr   
+    if (this.state.showAbbr) {
+      usstates = (
+        <div>
+          {
+            this.state.usstates.map(state => {
+              return <Usstate name={state.name}
+                abbr={state.abbr} />
+            })
+          }
+        </div>
+      )
+    }
 
-   // if Nickname btn clicked show nickname   
-   if (this.state.showNickname) {
-    usstates = (
-      <div>
-        {
-          this.state.usstates.map(state => {
-            return <Usstate name={state.name}
-              abbr={state.nickname} />
-          })
-        }
-      </div>
-    )
-  }   
+    // if Nickname btn clicked show nickname   
+    if (this.state.showNickname) {
+      usstates = (
+        <div>
+          {
+            this.state.usstates.map(state => {
+              return <Usstate name={state.name}
+                nickname={state.nickname} />
+            })
+          }
+        </div>
+      )
+    }
 
-  // if Population btn clicked show population   
-  if (this.state.showPopulation) {
-    usstates = (
-      <div>
-        {
-          this.state.usstates.map(state => {
-            return <Usstate name={state.name}
-              population={state.population}
-              populationRank = {state.populationRank}/>
-          })
-        }
-      </div>
-    )
-  } 
+    // if Population btn clicked show population   
+    if (this.state.showPopulation) {
+      usstates = (
+        <div>
+          {
+            this.state.usstates.map(state => {
+              return <Usstate name={state.name}
+                population={state.population}
+                populationRank={state.populationRank} />
+            })
+          }
+        </div>
+      )
+    }
+
+    // if Area btn clicked show area   
+    if (this.state.showArea) {
+      usstates = (
+        <div>
+          {
+            this.state.usstates.map(state => {
+              return <Usstate name={state.name}
+                area={state.area}
+                areaRank={state.areaRank} />
+            })
+          }
+        </div>
+      )
+    }
 
     return (
       <div className="App">
         <h1>US STATES</h1>
         <button onClick={this.toggleAbbrHandler}>Abbreviation</button>
         <button onClick={this.toggleCapitalHandler}>Capital</button>
-        <button onClick = {this.toggleNicknameHandler}>Nickname</button>
-        <button onClick = {this.togglePopulationHandler}>Population</button>
+        <button onClick={this.toggleNicknameHandler}>Nickname</button>
+        <button onClick={this.toggleAreaHandler}>Area</button>
+        <button onClick={this.togglePopulationHandler}>Population</button>
+
         <div className="usstate-list">
-          { usstates }
+          {usstates}
         </div>
+
       </div>
     );
   }
